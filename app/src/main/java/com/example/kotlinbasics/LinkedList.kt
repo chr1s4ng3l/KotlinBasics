@@ -1,5 +1,7 @@
 package com.example.kotlinbasics
 
+
+
 class ETradeLinkedList {
 
     class Node(var data: Int) {
