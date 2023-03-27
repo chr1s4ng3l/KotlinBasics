@@ -18,7 +18,7 @@ fun main() {
 
     }
 
-    timer.schedule(task, 0L, 5000L)
+    timer.schedule(task, 5000L, 5000L)
 
 
 }
