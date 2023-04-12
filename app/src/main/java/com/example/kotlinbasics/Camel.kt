@@ -22,11 +22,6 @@ fun String.toCamel(): String {
     val pattern = "(?<=.)[A-Z]".toRegex()
     val second = myString.replace(pattern, "_$0")
 
-    return if (!myString.contains(" ")){
-        second.toString()
-    }else{
-        first
-    }
-
+    return if (!myString.contains(" ")) second else first
 
 }
