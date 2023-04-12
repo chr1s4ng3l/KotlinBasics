@@ -6,15 +6,11 @@ fun main() {
     println(findWord(arrayOf("R>T", "A>L", "P>O", "O>R", "G>A", "T>U", "U>G"))) // PORTUGAL
     println(findWord(arrayOf("W>I", "R>L", "T>Z", "Z>E", "S>W", "E>R", "L>A", "A>N", "N>D", "I>T"))) // SWITZERLAND
     println(findWord(arrayOf("I>S", "C>R", "R>I"))) // CRIS
+    println(findWord(arrayOf("I>S", "L>U", "U>I"))) // LUIS
 }
 
 
-/**
- * Given an array of precedence rules, finds the word represented by the given rules.
- *
- * @param rules the array of precedence rules as strings
- * @return the word represented by the precedence rules
- */
+
 fun findWord(rules: Array<String>): String {
     // Create a map to store the letter-to-letter mapping
     val mapping = mutableMapOf<Char, Char>()
