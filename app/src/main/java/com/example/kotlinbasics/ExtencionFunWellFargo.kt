@@ -17,7 +17,7 @@ fun main(){
  *
  * @return the number of unique elements in this array
  */
-fun Array<Int>.toExt(): Int {
+ fun Array<Int>.toExt(): Int {
     // Sort the array to group equal elements together
     val array = this.sorted()
     // Initialize the fold operation with a null previous element and a count of 0

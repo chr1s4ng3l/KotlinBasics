@@ -2,9 +2,9 @@ package com.example.kotlinbasics
 
 fun main() {
     val array = arrayOf(arrayOf("hello", "world"), arrayOf("welcome", "to", "kotlin"))
-    val wordToSearch = "kotlin"
+    val wordToSearch = "to"
 
-    val coordinates = searchWord(array, "to")
+    val coordinates = searchWord(array, wordToSearch)
     if (coordinates.isNotEmpty()) {
         println("The word $wordToSearch is found at the following positions:")
         for (coordinate in coordinates) {
