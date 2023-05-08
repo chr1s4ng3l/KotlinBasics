@@ -23,7 +23,6 @@ fun findWord(rules: Array<String>): String {
     for (letter in mapping.keys) {
         if (letter !in mapping.values) { // if the letter is not a value in the map, it is the first letter of the word
             firstLetter = letter
-            break
         }
     }
 
