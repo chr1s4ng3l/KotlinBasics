@@ -9,8 +9,6 @@ fun main() {
     println(findWord(arrayOf("I>S", "L>U", "U>I"))) // LUIS
 }
 
-
-
 fun findWord(rules: Array<String>): String {
     // Create a map to store the letter-to-letter mapping
     val mapping = mutableMapOf<Char, Char>()
