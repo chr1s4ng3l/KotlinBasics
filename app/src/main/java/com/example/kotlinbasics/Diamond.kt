@@ -4,7 +4,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 
 
-//fun main() = runBlocking<Unit> {
+//fun com.example.kotlinbasics.main() = runBlocking<Unit> {
 //    val result = diamondThread()
 //    println("Result: $result")
 //}
