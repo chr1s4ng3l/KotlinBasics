@@ -2,7 +2,7 @@ package com.example.kotlinbasics
 
 
 fun main() {
-    val input = "aabbuewcdcd"
+    val input = "aabbdd"
 
     println(input.toRemoveDuplicateValues())
 }
