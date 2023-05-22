@@ -16,6 +16,7 @@ fun getMaxUnits(boxes: Array<Long>, unitsPerBox: Array<Long>, truckSize: Long): 
     var truckCapacity = truckSize
     var max = 0L
 
+
     // Iterates through each box in the sorted list.
     for ((boxCount, units) in boxList) {
         // Determines the number of boxes to be loaded, which is the minimum between boxCount and the remaining truck capacity.
