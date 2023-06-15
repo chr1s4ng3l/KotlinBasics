@@ -2,9 +2,15 @@ package com.example.kotlinbasics
 
 fun main() {
 
-    val mys = "myNombreEs"
-
-    print(mys.toCamel())
+    val myString1 = "myNombreEs"
+    val myString2 = "My nombre es"
+    val myString3 = "MyNombreEs"
+    val camelCaseString1 = myString1.toCamel()
+    println(camelCaseString1)
+    val camelCaseString2 = myString2.toCamel()
+    println(camelCaseString2)
+    val camelCaseString3 = myString3.toCamel()
+    println(camelCaseString3)
 
 }
 
