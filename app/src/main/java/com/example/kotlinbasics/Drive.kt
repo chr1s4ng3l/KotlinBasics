@@ -2,7 +2,7 @@ package com.example.kotlinbasics
 
 interface Drive {
 
-    fun Vehicle(){
+    fun vehicle(){
         println("Goes to work driving")
     }
 

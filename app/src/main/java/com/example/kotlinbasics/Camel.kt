@@ -1,7 +1,5 @@
 package com.example.kotlinbasics
 
-
-
 // My nombre es  -> My_nombre_es
 // MyNombreEs  -> My_nombre_es
 // myNombreEs  -> My_nombre_es

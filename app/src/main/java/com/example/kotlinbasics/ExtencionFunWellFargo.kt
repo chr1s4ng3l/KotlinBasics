@@ -10,8 +10,6 @@ fun main(){
 
 }
 
-
-
 /**
  * Returns the number of unique elements in this array.
  *
