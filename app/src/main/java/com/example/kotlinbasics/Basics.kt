@@ -103,7 +103,7 @@ private fun classInheritance() {
 
     var programer = Programer("Christopher", 24)
     programer.information()
-    programer.Vehicle()
+   // programer.Vehicle()
     programer.goToWork()
     programer.work()
     programer.java()

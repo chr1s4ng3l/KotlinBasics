@@ -11,9 +11,9 @@ class Programer( name: String, age: Int) : Persona(name, age), Drive, Language {
         println("$name va a Enhance It")
     }
 
-    override fun Vehicle() {
-        println("$name drive a BMW")
-    }
+//    override fun Vehicle() {
+//        println("$name drive a BMW")
+//    }
 
     override fun information() {
         println("Name: $name Age: $age")

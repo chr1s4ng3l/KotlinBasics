@@ -12,9 +12,9 @@ class Designer(name: String, age: Int): Persona(name, age), Drive, Language {
         println("$name va a Photoshop")
     }
 
-    override fun Vehicle() {
-        println("$name drive a Mercedes Benz")
-    }
+//    override fun Vehicle() {
+//        println("$name drive a Mercedes Benz")
+//    }
 
     override fun walk() {
         println("$name loves to walk to work")
